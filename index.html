@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Light and Color Art</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="stylesheet" href="./index_files/simplelightbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.13.0/simple-lightbox.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!--    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <script src="./index_files/simple-lightbox.js"></script>
+  <script src="./index_files/script.js"></script>
+
+    <style type="text/css">
+        body > .container {
+            background-color: #eee;
+            color: #555;
+        }
+        h1, h2, h3 {
+            /*font-family: 'Satisfy', cursive;*/
+            font-family: 'Tangerine', cursive;
+            /*font-style: italic;*/
+        }
+        .navbar-brand {
+            font-size: .8em;
+        }
+        .navbar-brand span {
+            /*font-family: 'Satisfy', cursive;*/
+            /*font-style: italic;*/
+            font-family: 'Tangerine', cursive;
+            font-size: 2.2em;
+            margin-left: 30px;
+        }
+        .carousel-container {
+            padding-top: 200px;
+        }
+        .carousel-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            display: none;
+        }
+        .section {
+            padding-top: 170px;
+        }
+        .entry-content {
+            margin: 50px 5%;
+            line-height: 1.8em;
+        }
+    </style>
+
+</head>
+
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#"><span>Andrzej Mazur</span><br/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="gal" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#am_el">European Landscapes</a></li>
+            <li><a class="dropdown-item" href="#am_cl">Californian Landscapes</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#bio_am">Biography</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#ex_am">Exhibitions</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container carousel-container">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide_05.png" class="d-block w-100">
+    </div>
+<!--    <div class="carousel-item">-->
+<!--      <img src="img/slide_03.png" class="d-block w-100">-->
+<!--    </div>-->
+    <div class="carousel-item">
+      <img src="img/slide_04.png" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+  <br/><br/>
+
+    <div class="section" id="am_el">
+        <h2 class="subtitle fancy"><span><a name="contact">Andrzej Mazur European Landscapes</a></span></h2>
+      <div class="gallery">
+        <a href="./img/andrzej_poland/6b.png" class="big"><img src="./img/thumbs/andrzej_poland/6b-188x188.png"></a>
+<a href="./img/andrzej_poland/22.png" class="big"><img src="./img/thumbs/andrzej_poland/22-188x188.png"></a>
+<a href="./img/andrzej_poland/26b.png" class="big"><img src="./img/thumbs/andrzej_poland/26b-188x188.png"></a>
+<a href="./img/andrzej_poland/47b.png" class="big"><img src="./img/thumbs/andrzej_poland/47b-188x188.png"></a>
+<a href="./img/andrzej_poland/6A2-1.png" class="big"><img src="./img/thumbs/andrzej_poland/6A2-1-188x188.png"></a>
+<a href="./img/andrzej_poland/A_PL1-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL1-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL8-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL8-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/2A-1.png" class="big"><img src="./img/thumbs/andrzej_poland/2A-1-188x188.png"></a>
+<a href="./img/andrzej_poland/4A2-1.png" class="big"><img src="./img/thumbs/andrzej_poland/4A2-1-188x188.png"></a>
+<a href="./img/andrzej_poland/A_PL7-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL7-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL15-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL15-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL26-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL26-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/9A-1.png" class="big"><img src="./img/thumbs/andrzej_poland/9A-1-188x188.png"></a>
+<a href="./img/andrzej_poland/10A-1.png" class="big"><img src="./img/thumbs/andrzej_poland/10A-1-188x188.png"></a>
+<a href="./img/andrzej_poland/A_PL6-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL6-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/Ac-Copy.png" class="big"><img src="./img/thumbs/andrzej_poland/Ac-Copy-188x188.png"></a>
+<a href="./img/andrzej_poland/REPRO-2_m-1.png" class="big"><img src="./img/thumbs/andrzej_poland/REPRO-2_m-1-188x188.png"></a>
+<a href="./img/andrzej_poland/REPRO-3_m-1.png" class="big"><img src="./img/thumbs/andrzej_poland/REPRO-3_m-1-188x188.png"></a>
+<a href="./img/andrzej_poland/A_PL5-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL5-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL4-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL4-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL14-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL14-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL20-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL20-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL22-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL22-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL23-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL23-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL24-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL24-1-188x188.jpg"></a>
+<a href="./img/andrzej_poland/A_PL27-1.jpg" class="big"><img src="./img/thumbs/andrzej_poland/A_PL27-1-188x188.jpg"></a>
+
+      </div>
+    </div>
+
+
+    <div class="section" id="am_cl">
+        <h2 class="subtitle fancy"><span><a name="contact">Andrzej Mazur Californian Landscapes</a></span></h2>
+      <div class="gallery">
+
+<a href="./img/andrzej_california/A_CA1-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA1-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA9-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA9-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA7-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA7-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/49.png" class="big"><img src="./img/thumbs/andrzej_california/49-188x188.png"></a>
+<a href="./img/andrzej_california/IMG_3858.jpg" class="big"><img src="./img/thumbs/andrzej_california/IMG_3858-188x188.jpg"></a>
+<a href="./img/andrzej_california/IMG_3860-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/IMG_3860-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/3A-1.png" class="big"><img src="./img/thumbs/andrzej_california/3A-1-188x188.png"></a>
+<a href="./img/andrzej_california/7A-1.png" class="big"><img src="./img/thumbs/andrzej_california/7A-1-188x188.png"></a>
+<a href="./img/andrzej_california/A_CA4-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA4-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA5-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA5-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA6-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA6-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA2-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA2-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA3-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA3-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA10-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA10-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/A_CA8-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_CA8-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/8A-1.png" class="big"><img src="./img/thumbs/andrzej_california/8A-1-188x188.png"></a>
+<a href="./img/andrzej_california/A_PL25-1.jpg" class="big"><img src="./img/thumbs/andrzej_california/A_PL25-1-188x188.jpg"></a>
+<a href="./img/andrzej_california/IMG_3864.jpg" class="big"><img src="./img/thumbs/andrzej_california/IMG_3864-188x188.jpg"></a>
+<a href="./img/andrzej_california/43.png" class="big"><img src="./img/thumbs/andrzej_california/43-188x188.png"></a>
+<a href="./img/andrzej_california/27.png" class="big"><img src="./img/thumbs/andrzej_california/27-188x188.png"></a>
+
+          </div>
+    </div>
+
+    <div class="section" id="bio_am">
+        <h2 class="subtitle fancy"><span><a name="contact">Andrzej Mazur - Biography</a></span></h2>
+        			<div class="entry-content">
+						<p><img src="./img/andrzej_mazur-288x226.png" alt="andrzej_mazur" width="288" height="226" style="margin-bottom: 20px;"/></p>
+<p>Andrzej Mazur was born in 1953 in Radom, Poland.  He studied at the Academy of Fine Art in Warsaw from 1973-1979.  He is currently a professor in the Conservation and Restoration Department of the same university.  Andrzej specializes in oil paintings with an impressionistic style and enjoys painting from nature.  In addition, he paints large murals using various techniques.</p>
+<p>Andrzej is interested in showing the color harmony of his subjects.  He creates his paintings with a mix of color and light, aiming to show the mood and emotions of the landscape.  The difference in color and light inspire different emotions that he endeavors to capture on canvass.</p>
+
+</div><!-- .entry-content -->
+        </div>
+
+
+            <div class="section" id="tmp">
+        <h2 class="subtitle fancy"><span><a name="contact">Exhibitions</a></span></h2>
+
+                	<div class="entry-content">
+						<p>April &#8211; May 2018<br />
+&#8222;Weg zum Light&#8221; &#8211; Kunstgalerie &#8222;Meduna&#8221;, 1220 Wien Donaucitystrasse 2<br />
+Patronage of the Polish embassy in Austria</p>
+<p>August &#8211; September 2017<br />
+Lublin Museum, Lublin, Poland<br />
+Exhibition halls of Lublin Castle<br />
+Exhibition &#8222;Impresje kalifornijskie &#8211; Światło i Kolor&#8221;<br />
+(&#8222;Californian Impressions &#8211; Light and Color&#8221;)</p>
+<p>December 2012 &#8211; January 2013<br />
+PS Zask Fine Art Gallery, Palos Verdes, California, USA</p>
+<p>2011<br />
+Gallery 381, &#8222;Light and color,&#8221; San Pedro, California, USA</p>
+																	</div><!-- .entry-content -->
+
+
+      <div class="gallery">
+
+<a href="./img/ex/1Wien.jpg" class="big"><img src="./img/thumbs/ex/1Wien-188x188.jpg"></a>
+<a href="./img/ex/6Wien.jpg" class="big"><img src="./img/thumbs/ex/6Wien-188x188.jpg"></a>
+<a href="./img/ex/5Wien.jpg" class="big"><img src="./img/thumbs/ex/5Wien-188x188.jpg"></a>
+<a href="./img/ex/4Wien.jpg" class="big"><img src="./img/thumbs/ex/4Wien-188x188.jpg"></a>
+<a href="./img/ex/MG_1.jpg" class="big"><img src="./img/thumbs/ex/MG_1-188x188.jpg"></a>
+<a href="./img/ex/MG_1a.jpg" class="big"><img src="./img/thumbs/ex/MG_1a-188x188.jpg"></a>
+<a href="./img/ex/MG_1b.jpg" class="big"><img src="./img/thumbs/ex/MG_1b-188x188.jpg"></a>
+<a href="./img/ex/MG_3.jpg" class="big"><img src="./img/thumbs/ex/MG_3-188x188.jpg"></a>
+<a href="./img/ex/MG_4.jpg" class="big"><img src="./img/thumbs/ex/MG_4-188x188.jpg"></a>
+<a href="./img/ex/MG_2770-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2770-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2808-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2808-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2843-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2843-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2850-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2850-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2866-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2866-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2884-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2884-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2886-Copy.jpg" class="big"><img src="./img/thumbs/ex/MG_2886-Copy-188x188.jpg"></a>
+<a href="./img/ex/MG_2898-Copy-e1516284646443.jpg" class="big"><img src="./img/thumbs/ex/MG_2898-Copy-e1516284646443-188x188.jpg"></a>
+<a href="./img/ex/DSC_7198-Copy.jpg" class="big"><img src="./img/thumbs/ex/DSC_7198-Copy-188x188.jpg"></a>
+<a href="./img/ex/DSC_7204-Copy.jpg" class="big"><img src="./img/thumbs/ex/DSC_7204-Copy-188x188.jpg"></a>
+<a href="./img/ex/DSC_7211-Copy.jpg" class="big"><img src="./img/thumbs/ex/DSC_7211-Copy-188x188.jpg"></a>
+<a href="./img/ex/IMG_4328.jpg" class="big"><img src="./img/thumbs/ex/IMG_4328-188x188.jpg"></a>
+<a href="./img/ex/IMG_4326.jpg" class="big"><img src="./img/thumbs/ex/IMG_4326-188x188.jpg"></a>
+<a href="./img/ex/IMG_4320.jpg" class="big"><img src="./img/thumbs/ex/IMG_4320-188x188.jpg"></a>
+<a href="./img/ex/IMG_5716.jpg" class="big"><img src="./img/thumbs/ex/IMG_5716-188x188.jpg"></a>
+<a href="./img/ex/IMG_5715.jpg" class="big"><img src="./img/thumbs/ex/IMG_5715-188x188.jpg"></a>
+<a href="./img/ex/IMG_4339.jpg" class="big"><img src="./img/thumbs/ex/IMG_4339-188x188.jpg"></a>
+<a href="./img/ex/IMG_4337.jpg" class="big"><img src="./img/thumbs/ex/IMG_4337-188x188.jpg"></a>
+<a href="./img/ex/IMG_4347.jpg" class="big"><img src="./img/thumbs/ex/IMG_4347-188x188.jpg"></a>
+<a href="./img/ex/IMG_4349.jpg" class="big"><img src="./img/thumbs/ex/IMG_4349-188x188.jpg"></a>
+<a href="./img/ex/06.jpg" class="big"><img src="./img/thumbs/ex/06-188x188.jpg"></a>
+<a href="./img/ex/06a.jpg" class="big"><img src="./img/thumbs/ex/06a-188x188.jpg"></a>
+<a href="./img/ex/06b.jpg" class="big"><img src="./img/thumbs/ex/06b-188x188.jpg"></a>
+<a href="./img/ex/06c.jpg" class="big"><img src="./img/thumbs/ex/06c-188x188.jpg"></a>
+<a href="./img/ex/08a.jpg" class="big"><img src="./img/thumbs/ex/08a-188x188.jpg"></a>
+<a href="./img/ex/08.jpg" class="big"><img src="./img/thumbs/ex/08-188x188.jpg"></a>
+<a href="./img/ex/13.jpg" class="big"><img src="./img/thumbs/ex/13-188x188.jpg"></a>
+<a href="./img/ex/10.jpg" class="big"><img src="./img/thumbs/ex/10-188x188.jpg"></a>
+<a href="./img/ex/09b.jpg" class="big"><img src="./img/thumbs/ex/09b-188x188.jpg"></a>
+<a href="./img/ex/15.jpg" class="big"><img src="./img/thumbs/ex/15-188x188.jpg"></a>
+<a href="./img/ex/16.jpg" class="big"><img src="./img/thumbs/ex/16-188x188.jpg"></a>
+<a href="./img/ex/05.jpg" class="big"><img src="./img/thumbs/ex/05-188x188.jpg"></a>
+<a href="./img/ex/02q.jpg" class="big"><img src="./img/thumbs/ex/02q-188x188.jpg"></a>
+<a href="./img/ex/04.jpg" class="big"><img src="./img/thumbs/ex/04-188x188.jpg"></a>
+<a href="./img/ex/03.jpg" class="big"><img src="./img/thumbs/ex/03-188x188.jpg"></a>
+<a href="./img/ex/02.jpg" class="big"><img src="./img/thumbs/ex/02-188x188.jpg"></a>
+<a href="./img/ex/01.jpg" class="big"><img src="./img/thumbs/ex/01-188x188.jpg"></a>
+<a href="./img/ex/02c.jpg" class="big"><img src="./img/thumbs/ex/02c-188x188.jpg"></a>
+<a href="./img/ex/02a.jpg" class="big"><img src="./img/thumbs/ex/02a-188x188.jpg"></a>
+<a href="./img/ex/02b.jpg" class="big"><img src="./img/thumbs/ex/02b-188x188.jpg"></a>
+<a href="./img/ex/San-Pedro-2011-11.jpg" class="big"><img src="./img/thumbs/ex/San-Pedro-2011-11-188x188.jpg"></a>
+<a href="./img/ex/San-Pedro-2011-7.jpg" class="big"><img src="./img/thumbs/ex/San-Pedro-2011-7-188x188.jpg"></a>
+<a href="./img/ex/lato2009-038.jpg" class="big"><img src="./img/thumbs/ex/lato2009-038-188x188.jpg"></a>
+<a href="./img/ex/lato2009-027.jpg" class="big"><img src="./img/thumbs/ex/lato2009-027-188x188.jpg"></a>
+<a href="./img/ex/A_8.jpg" class="big"><img src="./img/thumbs/ex/A_8-188x188.jpg"></a>
+<a href="./img/ex/14-San-Pedro-2011.jpg" class="big"><img src="./img/thumbs/ex/14-San-Pedro-2011-188x188.jpg"></a>
+<a href="./img/ex/10-Plock-2007-2.jpg" class="big"><img src="./img/thumbs/ex/10-Plock-2007-2-188x188.jpg"></a>
+<a href="./img/ex/9-Pulawy-2008-2.jpg" class="big"><img src="./img/thumbs/ex/9-Pulawy-2008-2-188x188.jpg"></a>
+<a href="./img/ex/1ANDRZEJ-avers.png" class="big"><img src="./img/thumbs/ex/1ANDRZEJ-avers-188x188.png"></a>
+<a href="./img/ex/1ANDRZEJ-revers.png" class="big"><img src="./img/thumbs/ex/1ANDRZEJ-revers-188x188.png"></a>
+<a href="./img/ex/2EVA-avers.png" class="big"><img src="./img/thumbs/ex/2EVA-avers-188x188.png"></a>
+<a href="./img/ex/2EVA-revers.png" class="big"><img src="./img/thumbs/ex/2EVA-revers-188x188.png"></a>
+<a href="./img/ex/3Andrzej-1-avers-.png" class="big"><img src="./img/thumbs/ex/3Andrzej-1-avers--188x188.png"></a>
+<a href="./img/ex/3Andrzej-1-revers.png" class="big"><img src="./img/thumbs/ex/3Andrzej-1-revers-188x188.png"></a>
+<a href="./img/ex/4Eva-1-avers-.png" class="big"><img src="./img/thumbs/ex/4Eva-1-avers--188x188.png"></a>
+<a href="./img/ex/4Eva-1-revers-.png" class="big"><img src="./img/thumbs/ex/4Eva-1-revers--188x188.png"></a>
+
+
+  </div>
+    </div>
+
+    <div class="section" id="contact">
+        <h2 class="subtitle fancy"><span><a name="contact">Contact</a></span></h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <p class="contact">
+                <i>Appointments Only</i><br>
+                    </p><h4>Phone:</h4>
+                    <a href="tel:3105404429">310 540 4429</a><br>
+                  <a href="tel:3109387067">310 938 7067</a><br>
+                  <h4>E-mail:</h4>
+                    <a href="mailto:a.mazur.art@gmail.com">a.mazur.art@gmail.com</a><br>
+                    <h4>Address:</h4>
+                    4014W 242 Street<br>
+                    Torrance CA 90505<br>
+                <p></p>
+
+<div class="gallery">
+<a href="./img/contact/IMG_6826.jpg" class="big"><img src="./img/thumbs/contact/IMG_6826-188x188.jpg"></a>
+<a href="./img/contact/IMG_3829.jpg" class="big"><img src="./img/thumbs/contact/IMG_3829-188x188.jpg"></a>
+<a href="./img/contact/IMG_3826.jpg" class="big"><img src="./img/thumbs/contact/IMG_3826-188x188.jpg"></a>
+</div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+  </div>
+    
+</div>
+</body>
+</html>
